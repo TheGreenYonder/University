@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Starter {
@@ -65,8 +66,10 @@ public class Starter {
         prof.get(0).PersNr = 223;
         prof.get(1).PersNr = 334;
 
+        prof.get(0).lessons = (ArrayList<Integer>) Arrays.asList(2203, 2100);
+        prof.get(1).lessons = (ArrayList<Integer>) Arrays.asList(1899);
 
-        // ----------- ADDISTENT --------------- \\
+        // ----------- ASSISTENT --------------- \\
 
         ArrayList<Assistent> assistant = new ArrayList<>();
 
@@ -82,6 +85,11 @@ public class Starter {
 
         assistant.get(0).PersNr = 1233;
         assistant.get(1).PersNr = 1289;
+
+
+        // ---------- LECTURES TO PROFESSORS ------------ \\
+
+
 
     }
 }
